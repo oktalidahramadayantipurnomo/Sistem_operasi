@@ -1,0 +1,12 @@
+mandaaaw13@cloudshell:~/tugas_sistem_operasis touch info_system.sh
+mandaaaw13@cloudshell:"/tugas_sistem_operasis nano info_system.sh
+mandaaaw13@cloudshell:~/tugas_sistem_operasi$ cat info_system.sh
+#!/bin/bash
+
+#menampilkan waktu saat ini echo "waktu saat ini $ datel #
+#menampilkan nama pengguna yang sedang login
+echo "pengguna yang sedang login: $ (whoami)
+#menampilkan total pengguna disk di sistem
+echo "total pengguna disk di sistem"
+df -h | grep '^/ #menampilkan informasi disk yang digunakan
+mandaaaw13@cloudshell:"/tugas_sistem_operasi$
